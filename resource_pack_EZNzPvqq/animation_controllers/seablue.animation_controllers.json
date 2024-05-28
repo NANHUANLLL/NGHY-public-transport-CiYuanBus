@@ -1,0 +1,121 @@
+{
+    "animation_controllers": {
+        "controller.animation.seablue.editor": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "s_1": "query.mod.editor_ani_choose == 1.0 && variable.editor_ani_jump_ctrl"
+                        },
+                        {
+                            "s_2": "query.mod.editor_ani_choose == 2.0 && variable.editor_ani_jump_ctrl"
+                        },
+                        {
+                            "s_3": "query.mod.editor_ani_choose == 3.0 && variable.editor_ani_jump_ctrl"
+                        },
+                        {
+                            "s_4": "query.mod.editor_ani_choose == 4.0 && variable.editor_ani_jump_ctrl"
+                        }
+                    ]
+                },
+                "s_1": {
+                    "animations": [
+                        "animation.seablue.close_door"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "variable.editor_ani_jump_ctrl = 0.0 ;return (query.all_animations_finished && !query.mod.editor_ani_is_loop) || query.mod.editor_ani_choose == 0.0;"
+                        },
+                        {
+                            "s_1": "query.mod.editor_ani_choose == 1.0&& query.all_animations_finished && query.mod.editor_ani_is_loop"
+                        },
+                        {
+                            "s_2": "query.mod.editor_ani_choose == 2.0"
+                        },
+                        {
+                            "s_3": "query.mod.editor_ani_choose == 3.0"
+                        },
+                        {
+                            "s_4": "query.mod.editor_ani_choose == 4.0"
+                        }
+                    ]
+                },
+                "s_2": {
+                    "animations": [
+                        "animation.seablue.move"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "variable.editor_ani_jump_ctrl = 0.0 ;return (query.all_animations_finished && !query.mod.editor_ani_is_loop) || query.mod.editor_ani_choose == 0.0;"
+                        },
+                        {
+                            "s_1": "query.mod.editor_ani_choose == 1.0"
+                        },
+                        {
+                            "s_2": "query.mod.editor_ani_choose == 2.0&& query.all_animations_finished && query.mod.editor_ani_is_loop"
+                        },
+                        {
+                            "s_3": "query.mod.editor_ani_choose == 3.0"
+                        },
+                        {
+                            "s_4": "query.mod.editor_ani_choose == 4.0"
+                        }
+                    ]
+                },
+                "s_3": {
+                    "animations": [
+                        "animation.seablue.open_door"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "variable.editor_ani_jump_ctrl = 0.0 ;return (query.all_animations_finished && !query.mod.editor_ani_is_loop) || query.mod.editor_ani_choose == 0.0;"
+                        },
+                        {
+                            "s_1": "query.mod.editor_ani_choose == 1.0"
+                        },
+                        {
+                            "s_2": "query.mod.editor_ani_choose == 2.0"
+                        },
+                        {
+                            "s_3": "query.mod.editor_ani_choose == 3.0&& query.all_animations_finished && query.mod.editor_ani_is_loop"
+                        },
+                        {
+                            "s_4": "query.mod.editor_ani_choose == 4.0"
+                        }
+                    ]
+                },
+                "s_4": {
+                    "animations": [
+                        "animation.seablue.windscreenwiper"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "variable.editor_ani_jump_ctrl = 0.0 ;return (query.all_animations_finished && !query.mod.editor_ani_is_loop) || query.mod.editor_ani_choose == 0.0;"
+                        },
+                        {
+                            "s_1": "query.mod.editor_ani_choose == 1.0"
+                        },
+                        {
+                            "s_2": "query.mod.editor_ani_choose == 2.0"
+                        },
+                        {
+                            "s_3": "query.mod.editor_ani_choose == 3.0"
+                        },
+                        {
+                            "s_4": "query.mod.editor_ani_choose == 4.0&& query.all_animations_finished && query.mod.editor_ani_is_loop"
+                        }
+                    ]
+                },
+                "version_for_editor": {
+                    "transitions": [
+                        {
+                            "default": "1.0"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "format_version": "1.10.0"
+}

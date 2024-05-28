@@ -1,0 +1,141 @@
+{
+    "Addon": {
+        "EnchantSetting": {
+            "amplifier": 1
+        },
+        "PackResourceSortData": {
+            "16_piao": {
+                "createTime": 1715669883.8602679,
+                "modifyTime": 1715669959.5729778
+            },
+            "16_trade": {
+                "createTime": 1715670331.035226,
+                "modifyTime": 1715670363.9113111
+            },
+            "1_vvnpr:Seablue": {
+                "createTime": 1715575564.3145442,
+                "modifyTime": 1715575802.5137742
+            },
+            "1_vvnpr:a": {
+                "createTime": 1710490730.58346,
+                "modifyTime": 1715575594.403719
+            },
+            "1_vvnpr:b": {
+                "createTime": 1710496721.7043467,
+                "modifyTime": 1714831702.5823238
+            },
+            "1_vvnpr:busicon": {
+                "createTime": 1715584412.0024395,
+                "modifyTime": 1715603850.3973565
+            },
+            "1_vvnpr:c": {
+                "createTime": 1710500077.0539608,
+                "modifyTime": 1714831701.54878
+            },
+            "1_vvnpr:entity": {
+                "createTime": 1710490796.198969,
+                "modifyTime": 1715667832.590261
+            },
+            "1_vvnpr:entity_1": {
+                "createTime": 1715576192.6943824,
+                "modifyTime": 1715578514.319857
+            },
+            "1_vvnpr:lightblue": {
+                "createTime": 1715673827.5306633,
+                "modifyTime": 1715674062.6092043
+            },
+            "1_vvnpr:piao": {
+                "createTime": 1715578698.727152,
+                "modifyTime": 1715700018.897864
+            },
+            "1_vvnpr:pink": {
+                "createTime": 1714831589.640295,
+                "modifyTime": 1715670774.6546052
+            },
+            "1_vvnpr:seablue": {
+                "createTime": 1715575891.187657,
+                "modifyTime": 1715670778.859807
+            },
+            "1_vvnpr:ticket": {
+                "createTime": 1715602965.2106922,
+                "modifyTime": 1715603836.0809505
+            },
+            "2_vvnpr:busicon": {
+                "createTime": 1714893808.498631,
+                "modifyTime": 1715580269.51923
+            },
+            "2_vvnpr:item": {
+                "createTime": 1715006623.7577577,
+                "modifyTime": 1715006649.0334096
+            },
+            "2_vvnpr:lightblue": {
+                "createTime": 1715674084.7691903,
+                "modifyTime": 1715674119.569773
+            },
+            "2_vvnpr:opendoor": {
+                "createTime": 1715659450.372176,
+                "modifyTime": 1715665127.4786491
+            },
+            "2_vvnpr:piao": {
+                "createTime": 1715578161.9746332,
+                "modifyTime": 1715578496.5465214
+            },
+            "2_vvnpr:pink": {
+                "createTime": 1715579744.5447598,
+                "modifyTime": 1715579788.5152276
+            },
+            "2_vvnpr:seablue": {
+                "createTime": 1715579812.1244311,
+                "modifyTime": 1715579922.1492212
+            },
+            "32_busicon": {
+                "createTime": 1715601979.1912458,
+                "modifyTime": 1715602134.7146945
+            },
+            "32_piao": {
+                "createTime": 1715602152.494842,
+                "modifyTime": 1715602159.6945162
+            },
+            "4_vvnpr:block": {
+                "createTime": 1714895054.291913,
+                "modifyTime": 1715583783.7087836
+            },
+            "4_vvnpr:busIcon": {
+                "createTime": 1714892076.051417,
+                "modifyTime": 1714892076.051417
+            },
+            "4_vvnpr:busicon": {
+                "createTime": 1714892103.4827223,
+                "modifyTime": 1715697211.3662028
+            },
+            "4_vvnpr:busicons": {
+                "createTime": 1715584333.9689686,
+                "modifyTime": 1715584381.6680007
+            },
+            "4_vvnpr:piao": {
+                "createTime": 1715578558.4135532,
+                "modifyTime": 1715700056.048064
+            },
+            "4_vvnpr:ticket": {
+                "createTime": 1715603015.4489312,
+                "modifyTime": 1715704619.0400305
+            },
+            "8_vvnpr:ticket": {
+                "createTime": 1715603123.4898112,
+                "modifyTime": 1715603640.5202181
+            }
+        },
+        "PlayerEffectSetting": {
+            "amplifier": 1,
+            "duration": 10
+        },
+        "PresetInstanceTreeData": [
+
+        ]
+    },
+    "UI": {
+        "customPrefabGroupExpand": [
+
+        ]
+    }
+}

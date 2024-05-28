@@ -1,0 +1,11 @@
+{
+    "bpType": "doorPart",
+    "changes": {},
+    "classType": "PartInstance",
+    "clientPartType": null,
+    "customVariables": [],
+    "directoryPath": "door",
+    "metaType": "doorPartMeta",
+    "objId": "d9b54d5d5e774df8b1456c5c0cbd741f",
+    "partType": "doorPart"
+}

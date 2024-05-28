@@ -1,0 +1,18 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "vvnpr:lightblue": {
+            "textures": "textures/items/lightblue"
+        },
+        "vvnpr:piao": {
+            "textures": "textures/items/piao"
+        },
+        "vvnpr:pink": {
+            "textures": "textures/items/pink"
+        },
+        "vvnpr:seablue": {
+            "textures": "textures/items/seablue"
+        }
+    },
+    "texture_name": "atlas.items"
+}

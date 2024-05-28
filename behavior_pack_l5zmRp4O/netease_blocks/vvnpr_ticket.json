@@ -1,0 +1,62 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+        "components": {
+            "minecraft:block_light_absorption": {
+                "value": 0
+            },
+            "minecraft:block_light_emission": {
+                "emission": 1.0
+            },
+            "minecraft:destroy_time": 0.1,
+            "netease:aabb": {
+                "clip": {
+                    "max": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "min": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "collision": {
+                    "max": [
+                        1.0,
+                        2.0,
+                        1.0
+                    ],
+                    "min": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "netease:block_crafting_table": {
+                "crafting_tags": [
+                    "crafting_table",
+                    "vvnpr:ticket"
+                ],
+                "custom_description": "2个绿宝石换一张车票"
+            },
+            "netease:block_entity": {
+                "client_tick": false,
+                "movable": true,
+                "tick": false
+            },
+            "netease:face_directional": {
+                "type": "direction"
+            },
+            "netease:tier": {
+                "digger": "pickaxe"
+            }
+        },
+        "description": {
+            "identifier": "vvnpr:ticket",
+            "register_to_creative_menu": true
+        }
+    }
+}

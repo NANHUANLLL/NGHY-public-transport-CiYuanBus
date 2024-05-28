@@ -1,0 +1,312 @@
+{
+    "animations": {
+        "animation.pink.close_door": {
+            "animation_length": 100,
+            "bones": {
+                "door": {
+                    "position": {
+                        "0.0": [
+                            4,
+                            0,
+                            -7
+                        ],
+                        "1.0": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "rotation": {
+                        "0.0": [
+                            0,
+                            -90,
+                            0
+                        ],
+                        "1.0": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            "loop": "hold_on_last_frame",
+            "particle_effects": {
+
+            }
+        },
+        "animation.pink.move": {
+            "animation_length": 38.75,
+            "bones": {
+                "Pink_cherry_blossom": {
+                    "rotation": [
+                        "math.clamp(query.vertical_speed * -7, -25, 25)",
+                        0,
+                        0
+                    ]
+                },
+                "b_axle": {
+                    "rotation": [
+                        "50 * query.modified_distance_moved",
+                        0,
+                        0
+                    ]
+                },
+                "g_axle": {
+                    "rotation": [
+                        0,
+                        0,
+                        "50 * query.modified_distance_moved"
+                    ]
+                },
+                "g_wheel": {
+                    "rotation": [
+                        "-50 * query.modified_distance_moved",
+                        0,
+                        0
+                    ]
+                },
+                "g_wheel2": {
+                    "rotation": [
+                        "-50 * query.modified_distance_moved",
+                        0,
+                        0
+                    ]
+                },
+                "g_wheel3": {
+                    "rotation": [
+                        "-50 * query.modified_distance_moved",
+                        0,
+                        0
+                    ]
+                },
+                "g_wheel4": {
+                    "rotation": [
+                        "-50 * query.modified_distance_moved",
+                        0,
+                        0
+                    ]
+                },
+                "qian_a": {
+                    "rotation": [
+                        0,
+                        "math.clamp(query.yaw_speed * 25, -25, 25)",
+                        0
+                    ]
+                },
+                "qian_b": {
+                    "rotation": [
+                        0,
+                        "math.clamp(query.yaw_speed * 25, -25, 25)",
+                        0
+                    ]
+                },
+                "steeringwheel": {
+                    "rotation": [
+                        0,
+                        0,
+                        "-math.clamp(query.yaw_speed * 35, -35, 35)"
+                    ]
+                },
+                "wheel_1": {
+                    "rotation": [
+                        "50 * query.modified_distance_moved",
+                        0,
+                        0
+                    ]
+                },
+                "wheel_2": {
+                    "rotation": [
+                        "50 * query.modified_distance_moved",
+                        0,
+                        0
+                    ]
+                },
+                "wheel_3": {
+                    "rotation": [
+                        "50 * query.modified_distance_moved",
+                        0,
+                        0
+                    ]
+                },
+                "wheel_4": {
+                    "rotation": [
+                        "50 * query.modified_distance_moved",
+                        0,
+                        0
+                    ]
+                }
+            },
+            "loop": true,
+            "particle_effects": {
+
+            }
+        },
+        "animation.pink.open_door": {
+            "animation_length": 100,
+            "bones": {
+                "door": {
+                    "position": {
+                        "0.0": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "1.0": [
+                            4,
+                            0,
+                            -7
+                        ]
+                    },
+                    "rotation": {
+                        "0.0": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "1.0": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            "loop": "hold_on_last_frame",
+            "override_previous_animation": true
+        },
+        "animation.pink.windscreenwiper": {
+            "animation_length": 2,
+            "bones": {
+                "w_a": {
+                    "position": {
+                        "0.0": {
+                            "lerp_mode": "catmullrom",
+                            "post": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "0.5": {
+                            "lerp_mode": "catmullrom",
+                            "post": [
+                                -7,
+                                2,
+                                0
+                            ]
+                        },
+                        "1.0": {
+                            "lerp_mode": "catmullrom",
+                            "post": [
+                                -14,
+                                0,
+                                0
+                            ]
+                        },
+                        "1.5": {
+                            "lerp_mode": "catmullrom",
+                            "post": [
+                                -7,
+                                2,
+                                0
+                            ]
+                        },
+                        "2.0": {
+                            "lerp_mode": "catmullrom",
+                            "post": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "w_a2": {
+                    "position": {
+                        "0.0": {
+                            "lerp_mode": "catmullrom",
+                            "post": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "0.5": {
+                            "lerp_mode": "catmullrom",
+                            "post": [
+                                7,
+                                2,
+                                0
+                            ]
+                        },
+                        "1.0": {
+                            "lerp_mode": "catmullrom",
+                            "post": [
+                                14,
+                                0,
+                                0
+                            ]
+                        },
+                        "1.5": {
+                            "lerp_mode": "catmullrom",
+                            "post": [
+                                7,
+                                2,
+                                0
+                            ]
+                        },
+                        "2.0": {
+                            "lerp_mode": "catmullrom",
+                            "post": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "w_b": {
+                    "rotation": {
+                        "0.0": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "1.0": [
+                            0,
+                            0,
+                            -110
+                        ],
+                        "2.0": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "w_b2": {
+                    "rotation": {
+                        "0.0": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "1.0": [
+                            0,
+                            0,
+                            110
+                        ],
+                        "2.0": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            "loop": true
+        }
+    },
+    "format_version": "1.8.0"
+}

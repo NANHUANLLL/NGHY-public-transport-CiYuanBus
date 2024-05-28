@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "vvnpr:pink"
+        },
+        "description": {
+            "category": "Construction",
+            "identifier": "vvnpr:pink",
+            "register_to_create_menu": true
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "vvnpr:busicon": {
+        "client_entity": {
+            "block_icon": "UBuWXDCL",
+            "destoryed_textures": "UBuWXDCL",
+            "hand_model_use_client_entity": true,
+            "identifier": "vvnpr:busicon"
+        },
+        "model_item_texture": "KPkometk",
+        "sound": "stone",
+        "textures": {
+            "down": "vvnpr:busicon",
+            "east": "vvnpr:busicon",
+            "north": "vvnpr:busicon",
+            "south": "vvnpr:busicon",
+            "up": "vvnpr:busicon",
+            "west": "vvnpr:busicon"
+        }
+    },
+    "vvnpr:piao": {
+        "client_entity": {
+            "block_icon": "qKNtlBVx",
+            "destoryed_textures": "qKNtlBVx",
+            "hand_model_use_client_entity": true,
+            "identifier": "vvnpr:piao"
+        },
+        "sound": "itemframe",
+        "textures": "vvnpr:piao"
+    },
+    "vvnpr:ticket": {
+        "client_entity": {
+            "block_icon": "bxGUSXOi",
+            "destoryed_textures": "bxGUSXOi",
+            "hand_model_use_client_entity": true,
+            "identifier": "vvnpr:ticket"
+        },
+        "sound": "metal",
+        "textures": {
+            "down": "vvnpr:tichet",
+            "east": "vvnpr:tichet",
+            "north": "vvnpr:tichet",
+            "south": "vvnpr:tichet",
+            "up": "vvnpr:tichet",
+            "west": "vvnpr:tichet"
+        }
+    }
+}

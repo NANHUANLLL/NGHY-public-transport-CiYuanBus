@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "animations": {
+                "close_door": "animation.pink.close_door",
+                "move": "animation.pink.move",
+                "open_door": "animation.pink.open_door",
+                "windscreenwiper": "animation.pink.windscreenwiper"
+            },
+            "geometry": {
+                "default": "geometry.pink"
+            },
+            "identifier": "vvnpr:pink",
+            "materials": {
+                "default": "spider"
+            },
+            "render_controllers": [
+                "controller.render.spider"
+            ],
+            "scripts": {
+                "animate": [
+                    "move"
+                ]
+            },
+            "spawn_egg": {
+                "base_color": "#ffaaff",
+                "overlay_color": "#ffffff"
+            },
+            "textures": {
+                "default": "textures/entity/pink"
+            }
+        }
+    }
+}

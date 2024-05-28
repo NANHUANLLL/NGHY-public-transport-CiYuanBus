@@ -1,0 +1,59 @@
+{
+    "behaviorAttrs": {
+        "EnableKeepInventory": false,
+        "SetPickUpArea": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "boxDataList": [],
+    "childParts": [
+        {
+            "bpType": "doorPart",
+            "changes": {},
+            "classType": "PartInstance",
+            "clientPartType": null,
+            "customVariables": [],
+            "directoryPath": "door",
+            "metaType": "doorPartMeta",
+            "objId": "ffb11ede0cfa4b39a313890759d8de8f",
+            "partType": "doorPart"
+        }
+    ],
+    "childPresets": [],
+    "classType": "PlayerPreset",
+    "dimension": 0,
+    "expLevelAttrs": {
+        "AddLevel": 0
+    },
+    "forceLoad": false,
+    "hungerAndHealthAttrs": {
+        "SetHealthLevel": 18,
+        "SetHealthTick": 80,
+        "SetHunger": 20,
+        "SetMaxExhaustionValue": 4.0,
+        "SetNaturalRegen": true,
+        "SetNaturalStarve": true,
+        "SetStarveLevel": 1,
+        "SetStarveTick": 80
+    },
+    "name": "Player0",
+    "notifyRemove": true,
+    "objId": "43a68ff11c5c4ad39caf37807f183443",
+    "preLoad": false,
+    "presetId": "34138d97-cc13-4cb7-9c43-f6b38b4899f3",
+    "presetType": "玩家预设",
+    "previewEnable": true,
+    "renderAttrs": {
+        "SetSkin": ""
+    },
+    "singleton": false,
+    "sportAttrs": {
+        "ChangeFlyState": false,
+        "SetJumpable": true,
+        "SetMovable": true,
+        "SetStepHeight": 0.5625
+    },
+    "unique": true
+}

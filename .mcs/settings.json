@@ -1,0 +1,17 @@
+{
+    "Arena.Component.Namespace": "vvnpr",
+    "FirstTabSetting": 1,
+    "ShortItemSettings": [
+        "resource_pack_EZNzPvqq\\ui",
+        "behavior_pack_l5zmRp4O\\Presets",
+        "behavior_pack_l5zmRp4O\\Parts",
+        "behavior_pack_l5zmRp4O\\BoxData",
+        "resource_pack_EZNzPvqq\\effects",
+        "resource_pack_EZNzPvqq\\models",
+        "resource_pack_EZNzPvqq\\textures"
+    ],
+    "Uluru.autoLayerDict": {
+
+    },
+    "Uluru.checkSuspectOldUI": true
+}

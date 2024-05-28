@@ -1,0 +1,179 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "bones": [
+                {
+                    "cubes": [
+                        {
+                            "origin": [
+                                -9,
+                                0,
+                                7
+                            ],
+                            "size": [
+                                2,
+                                36,
+                                2
+                            ],
+                            "uv": {
+                                "down": {
+                                    "uv": [
+                                        22,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        -2
+                                    ]
+                                },
+                                "east": {
+                                    "uv": [
+                                        14,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        36
+                                    ]
+                                },
+                                "north": {
+                                    "uv": [
+                                        12,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        36
+                                    ]
+                                },
+                                "south": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        36
+                                    ]
+                                },
+                                "up": {
+                                    "uv": [
+                                        22,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        2
+                                    ]
+                                },
+                                "west": {
+                                    "uv": [
+                                        18,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        36
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -14,
+                                36,
+                                7
+                            ],
+                            "size": [
+                                12,
+                                12,
+                                2
+                            ],
+                            "uv": {
+                                "down": {
+                                    "uv": [
+                                        22,
+                                        4
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        -2
+                                    ]
+                                },
+                                "east": {
+                                    "uv": [
+                                        20,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        12
+                                    ]
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        12
+                                    ]
+                                },
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        12
+                                    ]
+                                },
+                                "up": {
+                                    "uv": [
+                                        22,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        12,
+                                        2
+                                    ]
+                                },
+                                "west": {
+                                    "uv": [
+                                        20,
+                                        12
+                                    ],
+                                    "uv_size": [
+                                        2,
+                                        12
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "name": "bb_main",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "description": {
+                "identifier": "geometry.busicon",
+                "texture_height": 64,
+                "texture_width": 64,
+                "visible_bounds_height": 4.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.75,
+                    0
+                ],
+                "visible_bounds_width": 3
+            }
+        }
+    ]
+}

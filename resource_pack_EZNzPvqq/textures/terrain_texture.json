@@ -1,0 +1,60 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "DaegPsQe": {
+            "textures": "textures/ticket vending"
+        },
+        "HVKWWSHs": {
+            "textures": "textures/entity/busicon"
+        },
+        "KPkometk": {
+            "textures": "textures/items/busicons"
+        },
+        "QAzKBnBo": {
+            "textures": "textures/blocks/custom_brah"
+        },
+        "UBuWXDCL": {
+            "textures": "textures/busicons"
+        },
+        "busicon:busicon": {
+            "textures": "textures/blocks/busIcon"
+        },
+        "bxGUSXOi": {
+            "textures": "textures/ticketvending"
+        },
+        "jUcHooFG": {
+            "textures": "textures/items/busicon"
+        },
+        "kZOnvrID": {
+            "textures": "textures/items/seablue"
+        },
+        "luLTBalK": {
+            "textures": "textures/items/custom_apple"
+        },
+        "qKNtlBVx": {
+            "textures": "textures/entity/piao"
+        },
+        "vvnpr:a_1": {
+            "textures": "textures/blocks/busicon"
+        },
+        "vvnpr:busicon": {
+            "textures": "textures/blocks/busicon"
+        },
+        "vvnpr:busicon_1": {
+            "textures": "textures/blocks/busIcon"
+        },
+        "vvnpr:busicons_1": {
+            "textures": "textures/blocks/busIcon"
+        },
+        "vvnpr:piao": {
+            "textures": "textures/blocks/piao"
+        },
+        "vvnpr:tichet": {
+            "textures": "textures/blocks/tichet"
+        },
+        "zfAghETq": {
+            "textures": "textures/blocks/custom_dirt"
+        }
+    },
+    "texture_name": "atlas.terrain"
+}

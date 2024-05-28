@@ -1,0 +1,53 @@
+{
+    "Account": "1156317935@qq.com",
+    "AssertCacheDir": "F:\\MCStudioDownload\\EngineAssert",
+    "BlockNums": [
+        0,
+        0
+    ],
+    "BornPoint": [
+        0,
+        0,
+        0
+    ],
+    "CanPublishResourceComponent": true,
+    "CodeEnable": true,
+    "CreateNew": true,
+    "CreateVersion": "2.10.0.577810",
+    "DCWebUrl": "https://x19apigatewayexpr.nie.netease.com",
+    "EditAddOnPaths": [
+
+    ],
+    "EditLogFilePath": "F:\\MCStudioDownload\\work\\editor\\edit.log",
+    "EditMaterialPaths": [
+
+    ],
+    "EditName": "2d6f6a83d7b94ad4bef0",
+    "EditType": 2,
+    "EditVersion": "2.11.0.614308",
+    "EditorResourcePackPath": "F:\\Minecraft\\MCStudio\\data\\inner_res",
+    "ElkUrl": "https://x19mclexpr.nie.netease.com/client-log",
+    "GameType": 1,
+    "Id": "1b80eb72b8b64fa4ae96d1974bca0e46",
+    "IsMap": false,
+    "NewEditCount": 51,
+    "OldComponents": [
+
+    ],
+    "OldEditCount": 0,
+    "ResourceIds": [
+
+    ],
+    "SaveBackAddOnPath": "F:\\MCStudioDownload\\work\\1156317935@qq.com\\Cpp\\AddOn\\2d6f6a83d7b94ad4bef0cabccd720c06",
+    "SaveBackMapPath": "",
+    "Seed": "",
+    "ServerName": "EXPR",
+    "ShowGpuDriverTips": false,
+    "ShowGuide": false,
+    "Source": "import",
+    "StudioPort": 12716,
+    "StudioTempPath": "F:\\MCStudioDownload\\temp\\editorTemp",
+    "UserId": "51049",
+    "UserName": "南宫幻雅",
+    "WorldType": 1
+}

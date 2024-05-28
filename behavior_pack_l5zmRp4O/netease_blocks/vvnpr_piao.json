@@ -1,0 +1,58 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+        "components": {
+            "minecraft:block_light_absorption": {
+                "value": 0
+            },
+            "minecraft:block_light_emission": {
+                "emission": 1.0
+            },
+            "minecraft:destroy_time": 0.1,
+            "minecraft:loot": {
+                "table": "loot_tables/piao.json"
+            },
+            "netease:aabb": {
+                "clip": {
+                    "max": [
+                        1.0,
+                        0.1,
+                        1.0
+                    ],
+                    "min": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "collision": {
+                    "max": [
+                        1.0,
+                        0.1,
+                        1.0
+                    ],
+                    "min": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "netease:block_entity": {
+                "client_tick": false,
+                "movable": false,
+                "tick": false
+            },
+            "netease:face_directional": {
+                "type": "facing_direction"
+            },
+            "netease:tier": {
+                "digger": "pickaxe"
+            }
+        },
+        "description": {
+            "identifier": "vvnpr:piao",
+            "register_to_creative_menu": true
+        }
+    }
+}
